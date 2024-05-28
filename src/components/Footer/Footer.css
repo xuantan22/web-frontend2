@@ -1,0 +1,149 @@
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 400px;
+    background: #3c3b3b;
+    color: white;
+    
+}
+
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+
+.footer-logo p{
+    color: #383838;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap:50px;
+    color:#252525;
+    font-size: 20px;
+}
+
+
+.footer-links li{
+    cursor: pointer;
+
+}
+.footer-social-icon{
+    display: flex;
+    gap:20px;
+}
+
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+}
+
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #e8dede;
+    font-size: 20px;
+}
+
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius:10px;
+    height: 3px;
+    background: #c7c7c7;
+}
+.footer-category{
+    display: grid;
+    gap:20px;
+    width: 100%;
+    min-height: 300px;
+    grid-template-columns:2fr 2fr 2fr 2fr ;
+}
+.footer-category p{
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+.footer-service{
+   
+}
+.footer-service p{
+    display: flex;
+    justify-content: center;
+}
+.footer-service ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.footer-service ul li{
+    line-height: 2.0;
+    list-style: none;
+
+}
+
+.footer-payment{
+    display: flex;
+    flex-direction: column;
+}
+.footer-payment ul {
+    display: flex;
+    flex-direction:row;
+    width: 30px;
+    height: 40px;
+}
+.footer-payment ul li{
+    list-style: none;
+}
+
+
+.footer-follow{
+    display: flex;
+    flex-direction: column;
+}
+.footer-follow ul li{
+    list-style: none;
+}
+@media(max-width:800x){
+    .footer{
+        gap:20px;
+        
+    }
+    .footer-logo{
+        gap: 10px;
+        align-items: end;
+    }
+    .footer-logo img{
+        width: 400px;
+    }
+    .footer-logo p{
+        font-size: 25px;
+    }
+    .footer-links{
+        font-size: 14px;
+        gap: 10px;
+    }
+    .footer-social-icon img{
+        width: 22px;
+    }
+    .footer-copyright{
+        font-style: 15px;
+    }
+}
