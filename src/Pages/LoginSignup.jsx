@@ -66,10 +66,10 @@ const LoginSignup = () => {
     }
     if (formData.password.length < 8) {
       setFormData({ ...formData, password: '' });
-      // toast.error("Password must be at least 6 characters long.");
+      // toast.error("Password must be at least 8 characters long.");
       setErrors({
         ...errors,
-        password: 'Password must be at least 6 characters long.'
+        password: 'Password must be at least 8 characters long.'
       });
       return false;
     }
