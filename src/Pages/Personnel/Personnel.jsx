@@ -21,7 +21,7 @@ const Personnel = () => {
     const [avatar, setAvatar] = useState();
     const [user, setUser] = useState('no name');
     useEffect(() => {
-        fetch(`${API_BASE_URL}/getcurrentuser/${id}`)
+        fetch(`https://web-frontend2.vercel.app/getcurrentuser/${id}`)
           .then((res) => res.json())
           .then((user) => setUser(user));
           
