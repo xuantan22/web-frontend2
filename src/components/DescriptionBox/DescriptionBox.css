@@ -1,10 +1,12 @@
-.descriptionbox{
+.descriptionbox {
     margin: 120px 170px;
 }
-.descriptionbox-navigator{
+
+.descriptionbox-navigator {
     display: flex;
 }
-.descriptionbox-nav-box{
+
+.descriptionbox-nav-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,16 +14,92 @@
     width: 170px;
     height: 70px;
     border: 1px solid #d0d0d0;
+    cursor: pointer;
 
 }
-.descriptionbox-nav-box.fade{
+
+.descriptionbox-nav-box.fade {
     background: #fbfbfb;
     color: #555;
+
 }
-.descriptionbox-description{
+
+.descriptionbox-description {
     display: flex;
     flex-direction: column;
-    gap:25px;
+    gap: 25px;
     padding: 48px;
     padding-bottom: 70px;
+}
+
+.icon {
+    width: 24px;
+}
+
+.descriptionbox-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    max-width: 300px;
+}
+
+.descriptionbox-review-avatar {
+    padding: 10px;
+}
+
+.descriptionbox-review-info {
+    padding: 10px;
+    min-width: 300px;
+}
+
+.descriptionbox-review-username {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+
+
+.review-input {
+    align-items: center;
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Tạo ba cột bằng nhau */
+    grid-gap: 10px;
+    /* Khoảng cách giữa các ô */
+    height: 50px;
+    border-radius: 20px;
+    background: #fcf8f8;
+    max-width: 560px;
+
+}
+
+.review-rating {
+    color: rgb(235, 21, 21);
+}
+
+.review-input input {
+    padding: 8px;
+    height: 10px;
+    width: 500px;
+    border: none;
+    background: #f0eaed04;
+    height: max-content;
+    border: none;
+    outline: #555;
+
+}
+
+.review-input img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 5px;
+    ;
+}
+
+.submit-btn {
+    cursor: pointer;
 }

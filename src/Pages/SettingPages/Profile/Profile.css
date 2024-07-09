@@ -1,0 +1,49 @@
+.hoso{
+    background-color: bisque;
+    
+    
+}
+.hoso p{
+    padding-top: 10px;
+}
+.hoso-title{
+
+}
+.hoso-info{
+
+}
+.hoso-info-nickname{
+
+}
+.hoso-info-name{
+
+}
+.hoso-info-email{
+
+}
+.hoso-info-phonenumber{
+
+}
+.hoso-info-gender input{
+    padding: 10px;
+}
+.hoso-info-birthday input{
+    padding-right: 20px;
+}
+
+.hoso-info-image img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+   border-radius: 50%;
+}
+.hoso button{
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+    border: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}

@@ -1,0 +1,63 @@
+.hoso {
+    padding: 30px;    
+}
+
+.hoso-info {
+    margin-top: 50px;
+}
+.hoso-title{
+}
+
+.hoso-info-nickname{
+    width: 600px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr;
+}
+.hoso-info-nickname input{
+    height: 20px;
+
+}
+.hoso-info-name{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr;
+
+}
+.hoso-info-name input{
+    height: 20px;
+}
+
+.hoso-info-email{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr;
+    padding: 20px 0px  20px 0px;
+}
+
+
+.hoso-info-phonenumber label{
+    margin-right: 10px;
+
+}
+
+.hoso-info-gender{
+    display: grid;
+    grid-template-columns: 0.2fr 0.1fr 0.1fr;
+    padding: 20px 0px  20px 0px;
+    align-content: center;
+}
+.hoso-info-gender div{
+    display: flex;
+    justify-content: center;
+}
+.hoso-info-gender input{
+    width: 18px;
+    height: 18px;
+}
+.hoso-info-birthday{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr;
+    padding: 20px 0px  20px 0px;
+
+}

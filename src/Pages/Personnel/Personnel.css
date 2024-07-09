@@ -1,0 +1,88 @@
+.personnel {
+    width: 100%;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 7fr;
+
+}
+
+.personnel-slide {
+    background-color: beige;
+}
+
+.personnel-content {
+    background-color: beige;
+
+}
+
+.personnel-slide-avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.personnel-slide-avatar div {
+    list-style: none;
+    font-size: 24px;
+}
+.personnel-username{
+    margin-left: 10px;
+}
+.personnel-username p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.personnel-slide-menu {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.personnel-slide-menu div ul li {
+    list-style: none;
+    line-height: 1.5;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 5px;
+    display: flex;
+    font-size: 16px;
+    color: blueviolet;
+
+}
+
+.personnel-slide-menu p {
+    list-style: none;
+    line-height: 2.0;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 5px;
+    color: blue;
+    display: flex;
+    font-size: 16px;
+
+    :hover {
+        color: red;
+    }
+}
+
+.personnel-slide-menu .active {
+    color: red;
+}
+.personnel-slide-avatar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.personnel-slide-menu-lists{
+    list-style: none;
+    margin: 0 30px;
+    padding: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+}
+.personnel-slide-menu-lists.show {
+    max-height: 300px; /* Adjust based on the number of items */
+  }
