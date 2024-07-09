@@ -10,7 +10,6 @@ import Cookies from 'js-cookie';
 import PersonIcon from '@mui/icons-material/Person';
 import LogoutIcon from '@mui/icons-material/Logout';
 import SettingsIcon from '@mui/icons-material/Settings';
-import { API_BASE_URL } from '../../Api';
 
 const Narbar = () => {
     const id = Cookies.get('userId');
@@ -21,7 +20,7 @@ const Narbar = () => {
     const [avatar, setAvatar] = useState();
 
     useEffect(() => {
-        fetch(`${API_BASE_URL}/getcurrentuser/${id}`)
+        fetch(`https://web-frontend2.vercel.app/getcurrentuser/${id}`)
           .then((res) => res.json())
           .then((user) => setAvatar(user.image));
       }, [id]);
