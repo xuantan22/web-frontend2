@@ -8,6 +8,7 @@ import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import PercentIcon from '@mui/icons-material/Percent';
 import MenuOption from '../MenuOption';
 import Cookies from 'js-cookie';
+import { API_BASE_URL } from '../../Api';
 
 const Personnel = () => {
     const id = Cookies.get('userId');
@@ -20,7 +21,7 @@ const Personnel = () => {
     const [avatar, setAvatar] = useState();
     const [user, setUser] = useState('no name');
     useEffect(() => {
-        fetch(`http://localhost:5000/getcurrentuser/${id}`)
+        fetch(`${API_BASE_URL}/getcurrentuser/${id}`)
           .then((res) => res.json())
           .then((user) => setUser(user));
           
